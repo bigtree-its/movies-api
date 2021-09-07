@@ -1,0 +1,1 @@
+mvn install -Pprod -Dapigee.config.options=update

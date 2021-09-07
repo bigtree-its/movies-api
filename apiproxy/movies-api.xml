@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="1" name="movies-api">
+    <Basepaths>/movies</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1599153717527</CreatedAt>
+    <CreatedBy>nava.arul@gmail.com</CreatedBy>
+    <Description>A proxy for Movies</Description>
+    <DisplayName>movies-api</DisplayName>
+    <HostedManifestVersion>SHA-512:4cfe863de639ed64fd95c209cd6219e6dc8bddb512ba1b637996b26a7d94e236847c3489de73d07b89c1849c99af174f533d0a93d041c26f6ac2ac2141adda6b:eu-west-1</HostedManifestVersion>
+    <LastModifiedAt>1599302871299</LastModifiedAt>
+    <LastModifiedBy>nava.arul@gmail.com</LastModifiedBy>
+    <ManifestVersion>SHA-512:8a04b258f56fbf6169f81648fe74a967dfab2f8e7a18700904a4fff86ba93dad4048f5a3974278916c95363d120b40256dd5d814efa87d2772f7d525df4333e2</ManifestVersion>
+    <Policies>
+        <Policy>add-cors</Policy>
+        <Policy>impose-quota</Policy>
+        <Policy>remove-header-authorization</Policy>
+        <Policy>verify-oauth-v2-access-token</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources>
+        <Resource>jsc://route.js</Resource>
+        <Resource>hosted://app.yaml</Resource>
+        <Resource>hosted://index.js</Resource>
+        <Resource>hosted://package.json</Resource>
+    </Resources>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+</APIProxy>
