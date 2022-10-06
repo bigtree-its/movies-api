@@ -8,7 +8,7 @@
     <mirror>
         <id>dws-all-repos-mirror</id>
         <name>DWS Artifactory</name>
-        <url>https://artifactory.server.rbsgrp.net/artifactory/dws-all-repos</url>
+        <url>your-artifactory-url</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
 </mirrors>
