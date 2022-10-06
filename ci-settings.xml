@@ -6,8 +6,8 @@
 <localRepository>./local_repository</localRepository>
 <mirrors>
     <mirror>
-        <id>dws-all-repos-mirror</id>
-        <name>DWS Artifactory</name>
+        <id>repos-mirror</id>
+        <name>Artifactory</name>
         <url>your-artifactory-url</url>
         <mirrorOf>*</mirrorOf>
     </mirror>
